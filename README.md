@@ -1,5 +1,5 @@
 # Data_Mining_with_Python
-[Spring 2023] DATA MINING THEORY AND APPLICATION (IIE 4102)
+[Spring 2023] Data Mining Theory and Application (IIE 4102)
 
 ***
 Notion | [https://oval-alligator-fbf.notion.site/Git-Hub-f5f97b35a95c4f8597bec34fb0f74a5b
