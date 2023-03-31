@@ -27,8 +27,8 @@ Zhang, Yiming et al. “An intelligent early warning system of analyzing Twitter
     
     본 논문은 Twitter 데이터와 새로운 머신러닝 기법을 활용한 지능형 COVID-19 조기경보 시스템을 제안한다. 자연어 처리(NLP) 모델 중 하나인 BERT를 미세 조정하여 학습시켜 Twitter 데이터를 분류하였다. 또한 Twitter 데이터 기반 선형 회귀 모델을 통해 예측 모델을 구현하여 COVID-19 발생 초기 징후를 감지하고, 이를 기반으로 [](https://www.sciencedirect.com/topics/computer-science/web-based-application)조기 경보 웹 애플리케이션을 제공했다.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/630502b3-c4ad-4949-add1-4c52036b38e3/Untitled.png)
-    
+    ![image](https://user-images.githubusercontent.com/59306720/229029756-3714da50-4623-44d8-8676-d30f33f0b93c.png)
+
 - **논문의 Research Gap**
     
     [기존 연구]
@@ -63,7 +63,7 @@ Zhang, Yiming et al. “An intelligent early warning system of analyzing Twitter
     
     당일 확진자 수, 일일 트윗 수, 일일 코로나 관련 트윗 수의 세 값을 독립변수로 사용하는 다중회귀분석을 활용했다.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/98a3651b-1887-48c1-b477-e4757a5c93c7/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/59306720/229029819-55bfdb09-3447-4081-8fa9-20fc01920aa8.png)
     
     선형회귀모델의 성능 평가를 위해 R2 상관계수를 사용했다.
     
@@ -71,11 +71,12 @@ Zhang, Yiming et al. “An intelligent early warning system of analyzing Twitter
     
     텍스트 분류 작업에서는 BERT 모델이 가장 좋은 정확도와 F1 score를 보여주었다.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/36ddffc8-7291-4178-99ba-65a8f81a7335/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/59306720/229029846-31d40097-9e81-4e8d-95c5-eb0831e439f6.png)
     
     선형 회귀 모델에서는 다음과 같은 정확도를 보여주었다.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5651a082-046f-4b98-a129-5d67069e1553/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/59306720/229029872-c744664a-94a6-4d70-ac5e-8880846d5e0a.png)
+
     
     위의 결과에 따라 코로나의 경향성을 약 6일 전에 높은 정확도로 조기 경보할 수 있다는 결론이 도출되었다.
     
@@ -97,7 +98,7 @@ Zhang, Yiming et al. “An intelligent early warning system of analyzing Twitter
 
 - Christian, Lopez E., et al. “Understanding the Perception of COVID-19 Policies by Mining a Multilanguage Twitter Dataset.” *PREPRINT (Version 1) Available at Research Square [Https://Doi.Org/10.21203/Rs.3.Rs-95721/V1]*, Oct. 2020.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/85c2c2bf-42a6-4108-b0d8-be659fb032d6/Untitled.png)
+![image](https://user-images.githubusercontent.com/59306720/229029896-6ef85950-3950-4886-9276-5124db2b1ff3.png)
 
 논문에서는 2020년 3월까지의 데이터만 사용하였지만, 데이터셋을 만든 사람의 github에 2022년 12월까지의 데이터가 추가로 제공되어 있다. 이 최신 데이터를 활용할 수 있겠다.
 
