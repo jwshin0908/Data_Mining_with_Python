@@ -156,3 +156,4 @@ Zhang, Yaojie et al. “Forecasting crude oil prices with a large set of predict
 이러한 변수들은 석유 가격 예측에 중요한 영향을 미치는 것으로 알려져 있으며, 이를 이용하여 더 나은 예측을 수행할 수 있다.
 
 이러한 변수들을 추가로 고려한 뒤, 데이터마이닝 교과목에서 배운 고전적인 변수 선택 방법과 Ridge, Lasso, Elastic Net 등의 축소 추정 기법을 활용하여 변수 선택을 진행하면 더 좋은 성능을 기대할 수 있겠다.
+
